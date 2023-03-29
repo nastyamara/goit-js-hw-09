@@ -60,10 +60,10 @@ function stop() {
   clearInterval(intervalId);
 }
 
-const flatpickr = flatpickr(refs.dateInput, options);
+const flatpikr = flatpickr(refs.dateInput, options);
 
 
-// const dateInput = document.querySelector("#datetime-picker");
+const dateInput = document.querySelector("#datetime-picker");
 console.log(dateInput.value);
 
     function addLeadingZero(value) {
